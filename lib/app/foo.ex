@@ -1,6 +1,6 @@
 defmodule A.Foo do
-  @spec numbers() :: pos_integer()
-  def numbers() do
+  @spec number() :: pos_integer()
+  def number() do
     1729
   end
 end

@@ -5,7 +5,7 @@ defmodule AWeb.ALive do
   def mount(_params, _session, socket) do
     {:ok,
      socket
-     |> assign(:number, A.Foo.numbers())}
+     |> assign(:number, A.Foo.number())}
   end
 
   @impl true
